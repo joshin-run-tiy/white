@@ -1,4 +1,4 @@
-# Done
+# Have Completed
 * create project
 * yarn init
 * git init
@@ -8,6 +8,7 @@
   * add yarn.lock at the bottom of .gitignore
 * npm install sass
 * fill webpack.config.js with the following:
+* (add README.md if desired, or add later)
 
 ```
 var path = require('path');
@@ -40,3 +41,7 @@ module.exports = {
   * ```npm install style-loader --save-dev```
 * include script tag in html:
 ```<script type="text/javascript" src="./dist/bundle.js"></script>```
+* create GitHub repo
+* set up remote
+* commit
+* push
