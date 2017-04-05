@@ -1,17 +1,151 @@
 @import "colors"
+// @import "import"
 
 // font-face
 //   font-family: roboto-light
 //   src: url(../fonts/roboto/Roboto-Light.ttf)
 
-body
-  background-color: #fff
-  color: lighten($app-red, 20%)
+// *
+//   border: 1px dashed blue
 
+body
+  // background-color: #F9FBFB
+  color: lighten($app-red, 20%)
+  margin: 0px auto
+
+header
+  margin: 0px auto
+  width: 100vw
+  height: 100vh
+  text-align: center
+
+h1
+  margin: 0px auto
+  font-family: futura
+  font-weight: lighter
+  font-size: 3em
+
+h2
+  margin: 0px auto
+  font-family: futura
+  font-weight: lighter
+  font-size: 2em
+  text-align: center
+  margin-top: 40px
+
+.h1-box
+  background-color: #fff
+  height: 200px
+  width: 400px
+  opacity: 0.8
+
+.flex-container
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: center
+  align-content: stretch
+  align-items: center
+
+// .flex-left
+//   // display: -ms-flexbox
+//   // display: -webkit-flex
+//   display: flex
+//   // -webkit-flex-direction: row
+//   // -ms-flex-direction: row
+//   flex-direction: row
+//   // -webkit-flex-wrap: wrap
+//   // -ms-flex-wrap: wrap
+//   flex-wrap: wrap
+//   // -webkit-justify-content: center
+//   // -ms-flex-pack: center
+//   justify-content: flex-start
+//   // -webkit-align-content: stretch
+//   // -ms-flex-line-pack: stretch
+//   align-content: flex-start
+//   // -webkit-align-items: center
+//   // -ms-flex-align: center
+//   align-items: flex-start
+
+.header-spacer
+  background-color: lighten(gray, 45%)
+  // background-color: powderblue
+  // background-color: #F9FBFB
+  height: 200px
+  width: 100%
+
+.spacer
+  background-color: lighten(gray, 45%)
+  // background-color: powerderblue
+  // background-color: #F9FBFB
+  height: 400px
+  width: 100%
+
+.img--container
+  background-color: #fff
+  height: 700px
+  width: 100%
+
+.grid
+  height: 600px
+  width: 70%
+
+.img
+  margin: 8px
+  margin-top: 3px
+  margin-bottom: 3px
+  width: 25%
+
+.text-box
+  height: 500px
+  width: 100%
+
+.p-box
+  height: 360px
+  width: 525px
+  margin-left: 70px
+
+.row--img
+  width: 35%
 
 p
   font-family: futura
-  font-size: 4em
+  font-size: 1.255em
+  padding-left: 50px
+  padding-right: 50px
+  margin-top: 30px
 
-// font-family: avante garde, sans-serif
-//    for the header
+.row
+  background-color: #fff
+  width: 100%
+  height: 500px
+  padding: 0px
+
+footer
+  background-color: #fff
+  text-align: center
+
+a
+  padding: 0px
+
+a:hover
+  opacity: 0.6
+
+.flex-container-row
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: center
+    align-content: stretch
+    align-items: stretch
+
+.flex-item:nth-child(1)
+    order: 0
+    flex: 0 0 auto
+    align-self: baseline
+
+
+.flex-item:nth-child(2)
+    order: 1
+    flex: 1 1 auto
+    align-self: baseline
